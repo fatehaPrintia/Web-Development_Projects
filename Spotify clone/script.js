@@ -1,6 +1,6 @@
 console.log("welcome to spotify");
 let songIndex= 0;
-let audioElement= new Audio('songs/1.mp3');
+let audioElement= new Audio('songs/2.mp3');
 let masterPlay=document.getElementById('masterPlay');
 let myProgressBar =document.getElementById('myProgressBar');
 let gif =document.getElementById('gif');
@@ -112,7 +112,7 @@ Array.from(document.getElementsByClassName('songsItemPlay')).forEach((element)=>
 })
 
 document.getElementById('next').addEventListener('click',()=>{
-    if(songIndex>=10){
+    if(songIndex>=6){
         songIndex=1;
     }
     else{
@@ -132,7 +132,7 @@ document.getElementById('next').addEventListener('click',()=>{
 
 document.getElementById('previous').addEventListener('click',()=>{
     if(songIndex<2){
-        songIndex=10;
+        songIndex=6;
     }
     else{
         songIndex-=1;
