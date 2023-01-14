@@ -8,15 +8,11 @@ let masterSongName =document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 let songs=[
-    {songName:'Tum Hi Ho',filePath:'songs/Tum Hi Ho.mp3',coverPath:'covers/6.jpg'},
     {songName:'Ghodey Pe Sawaar Qala ',filePath:'songs/Ghodey Pe Sawaar Qala .mp3',coverPath:'covers/1.jpg'},
-    {songName:'Ahare Jibon   Chirkutt  Doob(ডব) ',filePath:'songs/Ahare Jibon   Chirkutt  Doob(ডব).mp3',coverPath:'covers/2.jpg'},
     {songName:'Ek Din Ap',filePath:'songs/Ek Din Ap.mp3',coverPath:'covers/3.jpg'},
     {songName:'Chiltey Rod',filePath:'songs/Chiltey Rod.mp3',coverPath:'covers/4.jpg'},
-    {songName:'Tum Se Hi',filePath:'songs/Tum Se Hi.mp3',coverPath:'covers/5.jpg'},
     {songName:'Alag asmaaan',filePath:'songs/Alag asmaaan.mp3',coverPath:'covers/6.jpg'},
     {songName:'Tum Tak',filePath:'songs/Tum Tak.mp3',coverPath:'covers/7.jpg'},
-    {songName:'UFF meri',filePath:'songs/Uff meri.mp3',coverPath:'covers/8.jpg'},
     {songName:'Teri Jhuki Nazar',filePath:'songs/Teri Jhuki Nazar.mp3',coverPath:'covers/9.jpg'},
 ]
 
