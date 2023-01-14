@@ -1,0 +1,117 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    /* margin: 0;
+    padding: 0; */
+    /* background:url(flower1.jpg); */
+    font-family:Cursive;
+    background-image: url(../css/flower10.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position:center;
+    min-height: 800px;
+    background-size: cover;
+    width: 100%;
+    /* position: absolute; */
+    /* z-index: 1; */
+}
+
+.loginBox{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 800px;
+    padding: 150px 50px;
+    box-sizing:border-box;
+    background:rgb(0,0,0,5);
+    background: transparent;
+    background-color:rgba(78, 134, 108, 0.5);
+    
+}
+.user{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    /* padding:20% 50% 80% 50%; */
+    top:calc(-100px/2);
+    left: calc(45% - 40px);
+}
+h1{
+    margin: 0 ;
+    padding: 0 0 50PX;
+    font-size: xx-large;
+    font-style:normal;
+    color: rgb(111, 226, 130);
+    text-align: center;
+    font-weight: bold;
+}
+.loginBox P{
+    margin: 0;
+    padding: 0 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+    color:   #fff;
+}
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size:  20px;
+    text-decoration:dashed;
+}
+::placeholder{
+    columns:white;
+    text-decoration:double;
+}
+
+
+.loginBox input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    background:#f00c67;
+    outline:none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginBox input[type="submit"]:hover{
+    background: #efed40;
+    color: #262626;
+    transition: 1s;
+    font-size: 20px;
+
+}
+.loginBox a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+.loginBox input[type="checkbox"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height:9px;
+    color: #fff;
+    font-size: 8px;
+}
+.tick{
+    display: flex;
+    float: left;
+ 
+}
