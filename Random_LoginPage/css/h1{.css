@@ -22,7 +22,7 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 800px;
-    height: 500px;
+    height: 400px;
     padding: 150px 50px;
     box-sizing:border-box;
     background:rgb(0,0,0,5);
