@@ -1,0 +1,172 @@
+.header{
+    min-height: 100px;
+    background-color:#121b2a;
+    overflow: hidden;
+
+
+    /* width: 0%;
+    margin:0 auto */
+}
+.wrapper{
+    width: 80%;
+    margin:0 auto
+}
+.logo{
+    width:20%;
+    float: left;
+
+}
+.nav{
+    width: 70%;
+    float: right;
+    margin-top: 30px;
+}
+.nav ul{
+    list-style: none;
+
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+    font-size:20px
+}
+.nav ul li a:hover{
+    color: #1172B3;
+    transition: 1s;
+}
+/* header end */
+/* banner strt */
+.banner{
+    background-image: url(../pic/banner2.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* width: 1500px; */
+    background-position: center;
+}
+.banner_text{
+    width: 50%;
+    margin-top: 100px;
+    padding: 0%;
+}
+.banner_text button:hover{
+    color:white;
+    background: blueviolet;
+    transition: 1s;
+    font-size: large;
+    /* padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px; */
+
+}
+.banner_text h3{
+    color: white;
+    /* font-style: bold; */
+    font-size: 40px;
+    padding: 0 0 auto;
+    height: 3px;
+}
+.banner_text h1{
+    color:aqua;
+    font-size: 45px;
+    margin-inline-start: 0px;
+    margin-inline-end: 1px;
+    margin-block-start: .1em;
+    margin-block-end: .1em;
+
+}
+.banner_text p{
+    color: white;
+    font-size: 18px;
+    margin-block-start: .1em;
+    margin-block-end: 1em;
+    font-weight: normal;
+
+
+}
+
+/* banner end */
+/* servies strt */
+.service{
+    overflow: hidden;
+    background-color: #121B2C;
+    color: aliceblue;
+    padding: 100px 0;
+}
+.service_section{
+    overflow: hidden;
+}
+.service1{
+    float: left;
+    width: 30%;
+    padding-left: 25px;
+    border-right: 1px solid grey;
+}
+.service1:last-child{
+    border-right: none;
+}
+.content{
+    overflow: hidden;
+}
+.content_img{
+    width: 30%;
+    float: left;
+}
+.content_text{
+    width:70%;
+    float: right;
+
+
+}
+
+    
+
+/* footer strt */
+.footer{
+    background-color: #121b2a;
+    color: aliceblue;
+
+    border-top: 1px solid black;
+    min-height: 100px;
+    background-color:#121b2a;
+    overflow: hidden;
+}
+.footer_nav{
+
+    /* width: 60%; */
+    float: left;
+
+
+
+}
+.footer_logo{
+
+
+    width: 30%;
+    float: right;
+}
+.footer_nav ul{
+  
+    list-style: none;
+}
+.footer_nav ul li{
+
+
+    float: right;
+    padding: 18px;
+    margin-top: 20px;
+}
+.footer_nav p{
+
+
+    padding-top: 10px;
+    clear: both;
+    float: left;
+
+}
