@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="/static/login.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+</html>
+<body>
+    
+    <div class="container">
+        <img id="logo" src="static/pic/ezgif.com-crop.gif" alt="Logo">
+        <div class="containerr">
+      <form class="input" action="" method="POST">
+       
+            {% csrf_token %}
+            <h2> Register Here</h2>
+            <label for="username"> </label>
+            
+        <input type="text" placeholder="Id" name="username" id="username">
+
+        <label for="mail"> </label>
+        <input type="mail" placeholder="g-suit" name="mail" id="mail">
+            <label for="password1"></label>
+            <input type="password" placeholder="Password" id="password1" name="password1">
+
+
+        <label for="password2"></label>
+        <input type="password" placeholder="Confirm Password" id="password2" name="password2">
+            <div id='sign'>
+
+            <button type='submit' > signup</button>
+            </div>
+            <br>
+            <a href="{% url 'login' %}" id='likha'> I already have an account</a>
+            </form>
+          </div>
+            </div>
+</body>

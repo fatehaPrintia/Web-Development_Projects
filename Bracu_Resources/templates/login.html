@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="/static/login.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+</html>
+<body>
+  
+     
+    <div class="container1">
+      <img id="logo" src="static/pic/ezgif.com-crop.gif" alt="Logo">
+      <div class="containerr1">
+    <form class="input"  method="POST">
+          {% csrf_token %}
+          <h2>Login Here </h2>
+          <input type="text" name="username" placeholder="Student_ID">
+          <input type="password" name="password" placeholder="password">
+          <input id="login_button" type="submit" value="Login">
+          <p>Don't have an account?
+          <a href="{% url 'registration' %}" id='signup' > Sign Up</a></p>
+          </form>
+        </div>
+          </div>
+</body>
